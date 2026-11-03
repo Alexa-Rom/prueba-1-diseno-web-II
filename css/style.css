@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--color-general:#383838;
+	--color-titulos:#222;
+	--color-negro:#262728;
+	--color-rosado:#fee9da;
+	--color-gris:#c6c6c6;
+}
+
+body{
+	font-family: 'didact gothic';
+	font-size: 18px;
+	color: var(--color-general);
+}
+
+.section{
+	padding: 60px 0;
+}
+
+.titulos{
+	font-family: 'poppins';
+	font-size: 40px;
+	text-transform: uppercase;
+	color: var(--color-titulos);
+	font-weight: 700;
+	padding-bottom: 17px;
+	padding-top: 10%;
+}
+
+.parrafo{
+	
+}
+
+/* Header */
+
+header{
+	position: absolute;
+	width: 100%;
+}
+
+/* Btones */
+
+.linea-btn{
+	width: 20px;
+	height: 2px;
+	top: 5px;
+	background-color: var(--color-general);
+	margin: auto;
+	margin-right: 5px;
+	
+}
+
+.btn-primary{
+	font-family: 'poppins';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: var(--color-general);
+	font-weight: 700;
+	background-color: transparent;
+	border: none;
+}
+
+.btn-primary:hover{
+	background-color: transparent;
+	color: var(--color-gris);
+}
+
+.btn-secondary{
+	font-family: 'poppins';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #151515;
+	font-weight: 600;
+	width: 250px;
+	border: none;
+	border-radius: 2px;
+}
+
+/* Herooo */
+
+#hero{
+	background-color: var(--color-general);
+}
+
+#hero .linea-btn{
+	background-color: var(--color-rosado);
+}
+
+#hero .btn-primary{
+	color: var(--color-rosado);
+}
+
+.titulo-principal{
+	font-family: 'poppins';
+	font-size: 55px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: 700;
+	padding-top: 120px; 
+}
+
+#hero .parrafo{
+	color: var(--color-gris);
+	
+}
+
+#hero img{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+/* trndy */
+
+
+
+/* services */
+
+.capa-services img{
+	width: 100%;
+}
+
+.capa-services-texto{
+	position: absolute;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	color: #fff;
+	font-family: 'poppins';
+	font-weight: 700
+}
+
+
+/* products */
+
+#products{
+	background-color: var(--color-rosado);
+}
+
+/* reviews */
+
+#reviews img{
+	width: 100%;
+}
+
+.me-estoy-quedando{
+	font-family: 'poppins';
+	font-weight: 600;
+}
+
+.sin-tiempo{
+	color: var(--color-gris);
+}
+
+
+/* contact */
+
+#contact i{
+	font-size: 16px !important;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: var(--color-negro);
+	color: #fff;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+	color: #fff;
+	background-color: var(--color-negro);
+	padding: 70px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
